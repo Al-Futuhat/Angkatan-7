@@ -65,7 +65,7 @@ nav ul .items {
 
 nav ul .items a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   padding: 0 12px;
 }
 
@@ -135,19 +135,19 @@ nav ul .search-icon .icon .span {
   height: 100%;
 }
 .slide1 {
-  background: url(img/identitas.jpg) no-repeat center;
+  background: url(img/bg\ futuhats.JPG) no-repeat center;
   background-size: cover;
   animation: fade1 8s infinite;
   -webkit-animation: fade1 8s infinite;
 }
 .slide2 {
-  background: url(img/tampakdepan.jpg) no-repeat center;
+  background: url(img/bg\ ustadzah.JPG) no-repeat center;
   background-size: cover;
   animation: fade2 8s infinite;
   -webkit-animation: fade2 8s infinite;
 }
 .slide3 {
-  background: url(img/lomba2.jpg) no-repeat center;
+  background: url(img/Kumpul\ Angkatan.jpeg) no-repeat center;
   background-size: cover;
   animation: fade3 8s infinite;
   -webkit-animation: fade3 8s infinite;
@@ -243,7 +243,11 @@ nav ul .search-icon .icon .span {
   text-transform: uppercase;
   font-weight: bold;
 }
+.alfutuhat {
+  font-size: medium;
+}
 .sambutan p {
+  color: #00d9ff;
   padding: 15px 0;
   font-style: italic;
   font-size: 1rem;
@@ -322,6 +326,14 @@ nav ul .search-icon .icon .span {
   font-weight: 600;
   text-transform: uppercase;
 }
+.galeri  {
+  color: #25ccff;
+  padding: 15px 0;
+  font-style: italic;
+  font-size: 1.3rem;
+  font-weight: normal;
+  text-align: center;
+}
 
 .galeri .boxGaleri {
   display: -webkit-box;
@@ -361,7 +373,7 @@ nav ul .search-icon .icon .span {
 
 .galeri .boxGaleri .perBox h3 {
   position: absolute;
-  bottom: -8px;
+  bottom: -px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -372,7 +384,7 @@ nav ul .search-icon .icon .span {
   padding-left: 5px;
   color: #fff;
   width: 100%;
-  height: 40px;
+  height: 20px;
   background-color: #11cbfa;
   font-size: 1rem;
 }
@@ -423,7 +435,7 @@ nav ul .search-icon .icon .span {
   width: 100%;
   height: 225px;
   border-radius: 5%;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .containerArtikelHome .artikelHome .perArtikelHome h3 {
@@ -433,6 +445,7 @@ nav ul .search-icon .icon .span {
   text-align: center;
   font-weight: 900;
   color: rgb(255, 255, 255)  ;
+  background-color: rgb(20, 169, 255);
 }
 .containerArtikelHome .artikelHome .perArtikelHome:hover h3 {
   color: rgba(30, 208, 231, 0.904);
@@ -470,10 +483,17 @@ nav ul .search-icon .icon .span {
 }
 
 .title p {
+  color: #29cdff;
   padding: 15px 0;
   font-style: italic;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: normal;
+  text-align: center;
+}
+
+.title h3 {
+  font-size: 10px;
+  color: red;
   text-align: center;
 }
 
